@@ -96,7 +96,7 @@
                 }
             ],
             "extra_config": {
-                "github.com/devopsfaith/krakend/proxy": {
+                "github.com/eufrost/krakend/proxy": {
                     "static": {
                         "strategy": "always",
                         "data": {
@@ -232,7 +232,7 @@
         {
           "endpoint": "/sequential/ok/{param}",
           "extra_config": {
-            "github.com/devopsfaith/krakend/proxy": {
+            "github.com/eufrost/krakend/proxy": {
               "sequential": true
             }
           },
@@ -251,7 +251,7 @@
         {
           "endpoint": "/sequential/incomplete/{param}",
           "extra_config": {
-            "github.com/devopsfaith/krakend/proxy": {
+            "github.com/eufrost/krakend/proxy": {
               "sequential": true
             }
           },
@@ -276,7 +276,7 @@
                     "url_pattern": "/collection/{id}",
                     "is_collection": true,
                     "extra_config": {
-                        "github.com/devopsfaith/krakend/proxy": {
+                        "github.com/eufrost/krakend/proxy": {
                             "flatmap_filter": [
                                 {
                                     "type": "move",
@@ -424,7 +424,7 @@
                 }
             ],
             "extra_config": {
-                "github.com/devopsfaith/krakend/proxy": {
+                "github.com/eufrost/krakend/proxy": {
                     "static": {
                         "strategy": "always",
                         "data": {
@@ -456,7 +456,7 @@
                 }
             ],
             "extra_config": {
-                "github.com/devopsfaith/krakend/proxy": {
+                "github.com/eufrost/krakend/proxy": {
                     "static": {
                         "strategy": "always",
                         "data": {
