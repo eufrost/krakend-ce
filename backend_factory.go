@@ -15,11 +15,11 @@ import (
 	opencensus "github.com/devopsfaith/krakend-opencensus"
 	pubsub "github.com/devopsfaith/krakend-pubsub"
 	juju "github.com/devopsfaith/krakend-ratelimit/juju/proxy"
-	"github.com/eufrost/krakend/config"
-	"github.com/eufrost/krakend/logging"
-	"github.com/eufrost/krakend/proxy"
-	"github.com/eufrost/krakend/transport/http/client"
-	httprequestexecutor "github.com/eufrost/krakend/transport/http/client/plugin"
+	"github.com/devopsfaith/krakend/config"
+	"github.com/devopsfaith/krakend/logging"
+	"github.com/devopsfaith/krakend/proxy"
+	"github.com/devopsfaith/krakend/transport/http/client"
+	httprequestexecutor "github.com/devopsfaith/krakend/transport/http/client/plugin"
 )
 
 // NewBackendFactory creates a BackendFactory by stacking all the available middlewares:

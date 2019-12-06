@@ -6,10 +6,10 @@ import (
 
 	consul "github.com/devopsfaith/krakend-consul"
 	"github.com/devopsfaith/krakend-etcd"
-	"github.com/eufrost/krakend/config"
-	"github.com/eufrost/krakend/logging"
-	"github.com/eufrost/krakend/sd"
-	"github.com/eufrost/krakend/sd/dnssrv"
+	"github.com/devopsfaith/krakend/config"
+	"github.com/devopsfaith/krakend/logging"
+	"github.com/devopsfaith/krakend/sd"
+	"github.com/devopsfaith/krakend/sd/dnssrv"
 )
 
 // RegisterSubscriberFactories registers all the available sd adaptors

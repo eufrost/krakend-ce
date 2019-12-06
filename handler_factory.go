@@ -8,8 +8,8 @@ import (
 	metrics "github.com/devopsfaith/krakend-metrics/gin"
 	opencensus "github.com/devopsfaith/krakend-opencensus/router/gin"
 	juju "github.com/devopsfaith/krakend-ratelimit/juju/router/gin"
-	"github.com/eufrost/krakend/logging"
-	router "github.com/eufrost/krakend/router/gin"
+	"github.com/devopsfaith/krakend/logging"
+	router "github.com/devopsfaith/krakend/router/gin"
 )
 
 // NewHandlerFactory returns a HandlerFactory with a rate-limit and a metrics collector middleware injected

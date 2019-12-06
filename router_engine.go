@@ -7,8 +7,8 @@ import (
 	cors "github.com/devopsfaith/krakend-cors/gin"
 	httpsecure "github.com/devopsfaith/krakend-httpsecure/gin"
 	lua "github.com/devopsfaith/krakend-lua/router/gin"
-	"github.com/eufrost/krakend/config"
-	"github.com/eufrost/krakend/logging"
+	"github.com/devopsfaith/krakend/config"
+	"github.com/devopsfaith/krakend/logging"
 	"github.com/gin-gonic/gin"
 )
 

@@ -1,4 +1,4 @@
-module github.com/eufrost/krakend-ce
+module github.com/devopsfaith/krakend-ce
 
 go 1.12
 
@@ -17,6 +17,7 @@ require (
 	github.com/coreos/go-systemd v0.0.0-20181012123002-c6f51f82210d // indirect
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
 	github.com/devopsfaith/bloomfilter v0.0.0-20190317200532-4687d0b9aa2a
+	github.com/devopsfaith/krakend v0.0.0-20190930092458-9e6fc3784eca
 	github.com/devopsfaith/krakend-amqp v0.0.0-20190315181526-5f14dc177694
 	github.com/devopsfaith/krakend-botdetector v0.0.0-20190711145323-c5fcb969addb
 	github.com/devopsfaith/krakend-cel v0.0.0-20190502130550-d6872fd4f97e
@@ -45,7 +46,6 @@ require (
 	github.com/devopsfaith/krakend-usage v0.0.0-20181025134340-476779c0a36c
 	github.com/devopsfaith/krakend-viper v0.0.0-20190407170411-1cbb76813774
 	github.com/devopsfaith/krakend-xml v0.0.0-20190713155104-2cd38185308f
-	github.com/eufrost/krakend v0.0.0-20191206165926-68a227b109a5
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/gin-gonic/gin v1.4.0
 	github.com/go-contrib/uuid v1.2.0
